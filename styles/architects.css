@@ -3,3 +3,10 @@
 *{
     font-family: 'Open Sans', sans-serif;
 }
+header{
+  background: rgba(255, 144, 14, 0.10);
+  padding: 50px 200px;
+}
+nav{
+  display: flex;
+}
