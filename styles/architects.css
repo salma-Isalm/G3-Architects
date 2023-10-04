@@ -107,6 +107,14 @@ color: #FF900E;
 font-weight: 700;
 }
 
+/* facts section styles */
+.facts-card-container{
+  display: flex;
+}
+.facts-card-container .card{
+  border-radius: 8px;
+border: 1px solid #FF900E;
+}
 
 /* small device responsive */
 @media screen and (max-width:576px) {
