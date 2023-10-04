@@ -13,9 +13,9 @@ nav{
   display: flex;
   justify-content: space-between;
 }
-.nav-title{
+.title{
   color: #131313;
-font-size: 2.8rem;
+font-size: 2.6rem;
 font-weight: 700;
 align-items: center;
 }
@@ -114,8 +114,17 @@ font-weight: 700;
   header{
     padding: 20px;
   }
-  nav,ul{
+  nav,
+  ul,
+  .theam-container  {
     flex-direction: column;
+  }
+  .theam-contact{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .theam-img-container{
+    grid-template-columns: 1fr;
   }
 }
 /* medium device responsive */
@@ -125,5 +134,8 @@ font-weight: 700;
   }
   nav{
     flex-direction: column;
+  }
+  .theam-container{
+    flex-direction: column-reverse;
   }
 }
