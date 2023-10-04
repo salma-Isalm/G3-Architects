@@ -70,7 +70,7 @@ nav li a {
 /* main styles */
 main{
   max-width: 1440px;
-  margin: 0 auto;
+  margin:  70px auto;
 }
 /* theam styles */
 .theam-container{
@@ -93,7 +93,7 @@ main{
 }
  .quick{
   color: #727272;
-  font-weight: 400;
+  font-weight: 500;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
@@ -114,11 +114,9 @@ font-weight: 700;
   header{
     padding: 20px;
   }
-  nav ,ul{
+  nav,ul{
     flex-direction: column;
   }
-
-  
 }
 /* medium device responsive */
 @media screen and (min-width: 576px ) and (max-width: 992px) {
