@@ -110,10 +110,24 @@ font-weight: 700;
 /* facts section styles */
 .facts-card-container{
   display: flex;
+  justify-content: space-around;
 }
 .facts-card-container .card{
   border-radius: 8px;
 border: 1px solid #FF900E;
+text-align: center;
+padding:  30px;
+}
+.facts-card-container .cards-state{
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.facts-card-container .card-title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0;
 }
 
 /* small device responsive */
@@ -124,15 +138,20 @@ border: 1px solid #FF900E;
   }
   nav,
   ul,
-  .theam-container  {
+  .theam-container ,
+  .facts-card-container  {
     flex-direction: column;
   }
-  .theam-contact{
+  .theam-contact,
+  .facts-card-container{
     padding-left: 20px;
     padding-right: 20px;
   }
   .theam-img-container{
     grid-template-columns: 1fr;
+  }
+  .facts-card-container{
+    gap: 20px;
   }
 }
 /* medium device responsive */
