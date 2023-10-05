@@ -231,6 +231,9 @@ margin-bottom: 30px;
   .facts-card-container{
     gap: 20px;
   }
+  footer{
+margin: 0;
+  }
 }
 /* medium device responsive */
 @media screen and (min-width: 576px ) and (max-width: 992px) {
