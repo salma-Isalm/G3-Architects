@@ -232,12 +232,13 @@ margin-bottom: 30px;
     gap: 20px;
   }
   footer{
-margin: 0;
+    margin-left: 0;
   }
 }
 /* medium device responsive */
 @media screen and (min-width: 576px ) and (max-width: 992px) {
   header{
+    width: 100%;
     padding: 50px;
   }
   nav,
