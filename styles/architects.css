@@ -1,7 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
 /* shared styles */
-  *{
+  *{margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 /* header styles */
@@ -12,6 +12,7 @@ header{
 nav{
   display: flex;
   justify-content: space-between;
+  
 }
 .title{
   color: #131313;
@@ -184,6 +185,19 @@ padding:  30px;
   width: 165px;
 }
 
+/* footer styles */
+footer{
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;
+background: #FFF4E7;
+font-size: 2.5rem;
+padding: 40px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
 /* small device responsive */
 @media screen and (max-width:576px) {
 
@@ -206,6 +220,14 @@ padding:  30px;
   .theam-img-container{
     grid-template-columns: 1fr;
   }
+  .features-img img{
+    width: 100%;
+    margin-left: 0;
+  }
+  .ten-years-badge{
+    position: static;
+    width: 280px;
+  }
   .facts-card-container{
     gap: 20px;
   }
@@ -216,13 +238,15 @@ padding:  30px;
     padding: 50px;
   }
   nav,
-  .sponsor-img-container{
+  .sponsor-img-container,
+  .features-container {
     flex-direction: column;
   }
   .theam-container{
     flex-direction: column-reverse;
   }
   .facts-card-container{
-    gap: 2px;
+    gap: 20px;
   }
+ 
 }
